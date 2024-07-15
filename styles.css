@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD700; /* Giallo */
+    color: #000000; /* Nero */
+}
+
+header {
+    background: #000000; /* Nero */
+    color: #FFD700; /* Giallo */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #FFD700; /* Giallo */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #000000; /* Nero */
+    color: #FFD700; /* Giallo */
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.hero-image {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #FFD700; /* Giallo */
+    color: #000000; /* Nero */
+}
+
+.description {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.testimonials {
+    background: #000000; /* Nero */
+    padding: 20px;
+    border-radius: 5px;
+    color: #FFD700; /* Giallo */
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.cta {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cta form {
+    display: inline-block;
+    text-align: left;
+}
+
+.cta label {
+    display: block;
+    margin: 5px 0 2px;
+    color: #000000; /* Nero */
+}
+
+.cta input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cta button {
+    background: #000000; /* Nero */
+    color: #FFD700; /* Giallo */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    background: #000000; /* Nero */
+    color: #FFD700; /* Giallo */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
